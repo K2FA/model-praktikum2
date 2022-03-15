@@ -15,6 +15,8 @@ class MenuFactory extends Factory
     {
         return [
             //
+            'title' => $this->faker->sentence,
+            'desc' => $this->faker->sentence,
         ];
     }
 }
