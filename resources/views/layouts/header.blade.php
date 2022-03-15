@@ -14,7 +14,7 @@
           </div>
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-              <li class="{{Request::is('index') ? 'active' : ''}}"><a href="/">Home</a></li>
+              <li class="{{Request::is('/') ? 'active' : ''}}"><a href="/">Home</a></li>
               <li class="{{Request::is('about') ? 'active' : ''}}"><a href="about">About Us</a></li>
               <li class="{{Request::is('contact') ? 'active' : ''}}"><a href="contact">Contact</a></li>
               <li><a href="#tablebooking">Table Booking</a></li>
