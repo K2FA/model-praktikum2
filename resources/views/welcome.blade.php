@@ -74,20 +74,20 @@
       <div class="row">
         <div class="col-lg-4">
           <img class="img-circle" src="images/nepali-momo.png" alt="Generic placeholder image">
-          <h2>Nepalese MOMO</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies</p>
+          <h2>{{$menu[0]->title}}</h2>
+          <p>{{$menu[0]->desc}}</p>
           <p><a class="btn btn-default" href="#" role="button">&pound; 2.2 Add to cart &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img class="img-circle" src="images/burger.png" alt="Generic placeholder image">
-          <h2>Burger</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. </p>
+          <h2>{{$menu[1]->title}}</h2>
+          <p>{{$menu[1]->desc}}</p>
           <p><a class="btn btn-default" href="#" role="button">&pound;5 Add to cart &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
 		  <img class="img-circle" src="images/gorkha-special-chicken.png" alt="Lam Tikka">
-          <h2>Gurkha Chicken</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. </p>
+          <h2>{{$menu[2]->title}}</h2>
+          <p>{{$menu[2]->desc}}</p>
           <p><a class="btn btn-default" href="#" role="button">&pound;4 Add to cart &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
